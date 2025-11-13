@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valorant Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-6 bg-black bg-opacity-80 fixed w-full z-10">
+    <div class="text-2xl font-bold tracking-wide">VALORANT</div>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#" class="hover:text-red-500">Play Now</a>
+      <a href="#" class="hover:text-red-500">Agents</a>
+      <a href="#" class="hover:text-red-500">Media</a>
+      <a href="#" class="hover:text-red-500">About</a>
+    </nav>
+    <button class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">Download</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Valorant_RiotGames_S1_2560x1440-02b9f82e263bb13a4e7220f01b1a6aef');">
+    <video autoplay muted loop class="relative h-screen w-screen" src="public/f6ccf20dfe3f6a24ea9216bb8afaaa66740c715d.mp4"></video>
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class=" absolute z-10 text-center px-4">
+      <h1 class="text-5xl md:text-7xl font-extrabold mb-6">DEFY THE LIMITS</h1>
+      <p class="text-lg md:text-2xl mb-8 max-w-2xl mx-auto">A 5v5 character-based tactical shooter from Riot Games.</p>
+      <a href="#" class="bg-red-600 hover:bg-red-700 px-8 py-4 text-lg font-semibold rounded">Play Free</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-10 text-center">Gallery</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <img src="/public/aefe3c7dbe39ef1da3f4241f4c6b771c535038fc-1920x1080.jpg" alt="Valorant Image 1" class="rounded-lg shadow-lg object-cover w-full h-64" />
+      <img src="/public/19e849b672283ccf4a655808d2a4400c9aa667f0-1920x1080.avif" alt="Valorant Image 2" class="rounded-lg shadow-lg object-cover w-full h-64" />
+      <img src="/public/4f99c85a041f7ce5ca5bcea74677a2787f62cf37-1920x1080.avif" alt="Valorant Image 3" class="rounded-lg shadow-lg object-cover w-full h-64" />
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="bg-gray-900 py-16 px-6">
+    <h2 class="text-3xl font-bold mb-10 text-center">What Players Say</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <p class="mb-4 italic">"Valorant offers the perfect mix of tactical gameplay and character abilities. Absolutely love it!"</p>
+        <div class="flex items-center space-x-4">
+          <img src="/public/aefe3c7dbe39ef1da3f4241f4c6b771c535038fc-1920x1080.jpg" alt="User 1" class="w-12 h-12 rounded-full" />
+          <div>
+            <p class="font-semibold">James K.</p>
+            <p class="text-sm text-gray-400">Pro Player</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <p class="mb-4 italic">"The strategic depth combined with crisp gunplay makes Valorant my go-to FPS game."</p>
+        <div class="flex items-center space-x-4">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User 2" class="w-12 h-12 rounded-full" />
+          <div>
+            <p class="font-semibold">Sophia L.</p>
+            <p class="text-sm text-gray-400">Gamer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <p class="mb-4 italic">"Riot Games nailed it with Valorant. The agents and maps are fantastic!"</p>
+        <div class="flex items-center space-x-4">
+          <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="User 3" class="w-12 h-12 rounded-full" />
+          <div>
+            <p class="font-semibold">David R.</p>
+            <p class="text-sm text-gray-400">Streamer</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!-- Footer -->
+<footer class="bg-black text-gray-400 pt-10 pb-6">
+  <!-- App Download -->
+  <div class="text-center mb-6">
+    <a href="#" class="text-white font-semibold hover:text-red-500 transition">
+      DOWNLOAD THE RIOT MOBILE COMPANION APP
+    </a>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="flex justify-center space-x-6 mb-8">
+    <a href="#" class="hover:text-red-500 transition"><i class="fab fa-x-twitter text-2xl"></i></a>
+    <a href="#" class="hover:text-red-500 transition"><i class="fab fa-youtube text-2xl"></i></a>
+    <a href="#" class="hover:text-red-500 transition"><i class="fab fa-instagram text-2xl"></i></a>
+    <a href="#" class="hover:text-red-500 transition"><i class="fab fa-facebook text-2xl"></i></a>
+    <a href="#" class="hover:text-red-500 transition"><i class="fab fa-discord text-2xl"></i></a>
+  </div>
+
+  <!-- Riot Games Logo -->
+  <div class="flex justify-center mb-4">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Riot_Games_logo.svg" alt="Riot Games Logo" class="h-6 opacity-70" />
+  </div>
+
+  <!-- Copyright -->
+  <p class="text-center text-sm mb-8">
+    © 2020–2025 Riot Games, Inc. RIOT GAMES, VALORANT and all associated logos are trademarks, service marks and/or registered trademarks of Riot Games, Inc.
+  </p>
+
+  <!-- Legal Links -->
+  <div class="flex flex-wrap justify-center gap-6 text-sm font-semibold text-white mb-8">
+    <a href="#" class="hover:text-red-500 transition">PRIVACY POLICY</a>
+    <a href="#" class="hover:text-red-500 transition">TERMS OF USE</a>
+    <a href="#" class="hover:text-red-500 transition">COMPANY INFORMATION</a>
+    <a href="#" class="hover:text-red-500 transition">COOKIE PREFERENCES</a>
+  </div>
+
+  <!-- PEGI / Rating Icons -->
+  <div class="flex justify-center gap-4">
+    <img src="/public/74616f83f75bd2c1b61d2140777961d722b5e3fc-208x254.jpg" alt="PEGI 16" class="h-12 w-auto" />
+    <img src="/public/340fbcf94a6e813ea8728c6f42df054d452cf140-1000x1000.jpg" alt="Violence" class="h-12 w-auto" />
+    <img src="/public/4c03402c6c1c26439d311e415b83cbbc4494390f-208x208.jpg" alt="In-game Purchases" class="h-12 w-auto" />
+  </div>
+</footer>
+
+<!-- Font Awesome (for social icons) -->
+<script src="https://kit.fontawesome.com/a2d9d6f0aa.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
